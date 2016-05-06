@@ -1,0 +1,23 @@
+{
+  "name": "theme",
+  "version": "0.0.1",
+  "description": "Theme for Mark Mahaney's Tumblr",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "broccoli": "^0.16.9",
+    "broccoli-bower": "^0.2.1",
+    "broccoli-env": "0.0.1",
+    "broccoli-es6-concatenator": "^0.1.11",
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-merge-trees": "^1.1.1",
+    "broccoli-sass": "^0.7.0",
+    "broccoli-template": "^0.1.1",
+    "broccoli-uglify-js": "^0.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Postcontext",
+  "license": "ISC"
+}

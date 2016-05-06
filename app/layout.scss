@@ -1,0 +1,40 @@
+@import 'variables';
+
+body {
+
+}
+
+/* Navigation */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  padding-top:    $top-gutter;
+  padding-bottom: $bottom-gutter;
+  padding-left:  $left-right-outer-gutter;
+  padding-right: $left-right-outer-gutter;
+
+  nav {
+    width: 100%;
+
+    .nav-left, .nav-right {
+      position: absolute;
+    }
+    .nav-left {
+      left: $left-right-outer-gutter;
+    }
+    .nav-right {
+      right: $left-right-outer-gutter;
+    }
+  }
+}
+
+main {
+  max-width: 600px;
+ 
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+}
