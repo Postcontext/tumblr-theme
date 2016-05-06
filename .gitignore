@@ -3,3 +3,9 @@ node_modules/
 
 # Ignore whatever is in tmp
 tmp/
+
+# Ignoring images for now
+public/img/
+
+# Ignore OS X file system stuff
+*.DS_Store
